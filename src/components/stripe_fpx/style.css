@@ -1,0 +1,33 @@
+
+.purchase_ticket_btn {
+  background: #FBBC04;
+  border-radius: 4px;
+  color: #202124;
+  padding: 0 20px;
+  display: inline-block;
+  font-weight: 500;
+  height: 36px;
+  font-size: 15px;
+  line-height: 36px;
+  margin-top: 8px;
+  cursor: pointer;
+  min-width: 85px;
+  text-align: center;
+  transition: box-shadow 200ms ease;
+  text-decoration: none;
+  border-color: transparent;
+}
+.purchase_ticket_btn:hover {
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 5px 8px 0 rgba(0,0,0,0.24)
+}
+
+.purchase_ticket_btn:disabled,
+.purchase_ticket_btn:disabled {
+  background: rgb(210, 212, 211);
+  color: grey;
+} 
+
+.purchase_ticket_btn:hover:disabled,
+.purchase_ticket_btn:hover:disabled {
+  box-shadow: none;
+}

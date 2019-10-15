@@ -1,0 +1,69 @@
+.scrollbar {
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 60px;
+}
+
+.mapImage {
+    height: calc(100vh - 130px);
+}
+
+.transactionTable > tr > td{
+    padding: 10px;
+}
+
+.transactionTable > tr > td:last-child {
+    font-weight: bold;
+}
+
+.btn {
+    background: #FBBC04;
+    border-radius: 4px;
+    color: #202124;
+    padding: 0 20px;
+    display: inline-block;
+    font-weight: 500;
+    height: 36px;
+    font-size: 15px;
+    line-height: 36px;
+    margin-top: 8px;
+    cursor: pointer;
+    min-width: 85px;
+    text-align: center;
+    transition: box-shadow 200ms ease;
+    text-decoration: none;
+    border-color: transparent;
+    width: 50%;
+  }
+  .btn:hover {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 5px 8px 0 rgba(0,0,0,0.24)
+  }
+  
+  .btn:disabled,
+  .btn:disabled {
+    background: rgb(210, 212, 211);
+    color: grey;
+  } 
+  
+  .btn:hover:disabled,
+  .btn:hover:disabled {
+    box-shadow: none;
+  }
+@media screen and (max-width: 768px) {
+    .cfp {
+        margin: 8px 0 0 0;
+        padding: 80px 16px 0 16px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .scrollbar {
+        padding-top: 0px;
+    }
+    .mapImage {
+        margin-left: 5vh;
+    }
+}
