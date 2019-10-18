@@ -64,7 +64,7 @@ export default class StripeFpx extends Component {
               loading: true
             });
             const paymentIntentData = {
-              return_url: `${window.location.href}/fpx-status`
+              return_url: `${window.location.href}fpx-status`
             };
             const clientSecret = this.props.clientSecret;
 
